@@ -1,7 +1,7 @@
 import { View, Text, TextInput, Button, Alert } from "react-native";
 import React, { useState } from "react";
 
-export default function login() {
+export default function Login() {
   const [Username, setName] = useState("");
   const [Password, setPassword] = useState("");
 
